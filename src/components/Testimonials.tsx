@@ -1,4 +1,5 @@
 import { Card } from "@/components/ui/card";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Quote } from "lucide-react";
 
 const testimonials = [
@@ -6,16 +7,19 @@ const testimonials = [
     quote: "Ioana is a rock star Product Manager. Her passion for product management and drive to make things happen impressed me. She knows what it takes to create a meaningful product from scratch. The top five characteristics I perceive are empathic, reliable, problem-solver, value-driven, and brave.",
     author: "David Pereira",
     role: "CPO, Product Coach, Keynote Speaker",
+    image: "", // Add image URL later
   },
   {
     quote: "Ioana is wonderful to work with, and has unique expertise in our domain. She has a very strong work ethic and unparalleled analytical and problem solving skills. She has the vision to see the benefits and the passion to turn that into a competitive advantage.",
     author: "Jasa Zelmanovic",
     role: "UX Design Manager, LogMeIn",
+    image: "", // Add image URL later
   },
   {
     quote: "With her extensive experience in digital product management, Ioana brought a wealth of knowledge to our projects. She possesses a remarkable level of empathy and compassion. Her ability to navigate different personalities within the team created a harmonious atmosphere and contributed to our success.",
     author: "Bernhard Herzog-Obereder",
     role: "CTO",
+    image: "", // Add image URL later
   },
 ];
 
@@ -48,12 +52,20 @@ const Testimonials = () => {
                 "{testimonial.quote}"
               </p>
               
-              <div className="border-t border-border pt-4">
-                <div className="font-semibold text-foreground">
-                  {testimonial.author}
-                </div>
-                <div className="text-sm text-muted-foreground mt-1">
-                  {testimonial.role}
+              <div className="border-t border-border pt-4 flex items-center gap-4">
+                <Avatar className="w-12 h-12">
+                  <AvatarImage src={testimonial.image} alt={testimonial.author} />
+                  <AvatarFallback className="bg-primary/10 text-primary font-semibold">
+                    {testimonial.author.split(' ').map(n => n[0]).join('')}
+                  </AvatarFallback>
+                </Avatar>
+                <div>
+                  <div className="font-semibold text-foreground">
+                    {testimonial.author}
+                  </div>
+                  <div className="text-sm text-muted-foreground mt-1">
+                    {testimonial.role}
+                  </div>
                 </div>
               </div>
             </Card>
