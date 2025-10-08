@@ -1,0 +1,95 @@
+import { Card } from "@/components/ui/card";
+import { Building2, Briefcase, Target } from "lucide-react";
+
+const experiences = [
+  {
+    icon: Building2,
+    stat: "10 Years",
+    title: "Product Management",
+    description: "Delivered valuable products from scaling startups (Xentral) to multi-billion-dollar corporations (LogMeIn). B2B & B2C. Web & Mobile.",
+  },
+  {
+    icon: Briefcase,
+    stat: "7 Years",
+    title: "Project Management",
+    description: "Led multi-million-dollar projects with full budget responsibility. Teams of up to 20 members across continents. ERP & E-Commerce implementations.",
+  },
+  {
+    icon: Target,
+    stat: "11+ Industries",
+    title: "Domain Expertise",
+    description: "Video Conferencing, Retail, ERP, E-Commerce, Online Counseling, Domains & Hosting, HR Payroll, and more.",
+  },
+];
+
+const companies = [
+  "LogMeIn",
+  "Xentral",
+  "1&1",
+  "Nestlé",
+  "Sonae Group",
+];
+
+const Experience = () => {
+  return (
+    <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-subtle">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-16 animate-fade-in">
+          <h2 className="text-4xl sm:text-5xl font-bold mb-4">
+            Battle-Tested{" "}
+            <span className="bg-gradient-primary bg-clip-text text-transparent">
+              Across Industries
+            </span>
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            Nearly two decades of turning complexity into clarity
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-8 mb-16">
+          {experiences.map((exp, index) => (
+            <Card
+              key={index}
+              className="p-8 bg-card border-border hover:border-primary/50 transition-all duration-300 animate-fade-in-up group"
+              style={{ animationDelay: `${index * 0.15}s` }}
+            >
+              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
+                <exp.icon className="w-6 h-6 text-primary" />
+              </div>
+              
+              <div className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
+                {exp.stat}
+              </div>
+              
+              <h3 className="text-xl font-semibold mb-3">
+                {exp.title}
+              </h3>
+              
+              <p className="text-muted-foreground leading-relaxed">
+                {exp.description}
+              </p>
+            </Card>
+          ))}
+        </div>
+
+        <div className="text-center animate-fade-in">
+          <p className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-6">
+            Trusted by Industry Leaders
+          </p>
+          <div className="flex flex-wrap justify-center items-center gap-8 sm:gap-12">
+            {companies.map((company, index) => (
+              <div
+                key={index}
+                className="text-xl font-bold text-foreground/40 hover:text-foreground transition-colors cursor-default"
+              >
+                {company}
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Experience;
