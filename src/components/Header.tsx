@@ -21,6 +21,9 @@ const Header = () => {
           <a href="#testimonials" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
             Testimonials
           </a>
+          <a href="https://ioana-ognibeni.eu/articles/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
+            Articles
+          </a>
           <Button variant="hero">
             Let's Talk
           </Button>

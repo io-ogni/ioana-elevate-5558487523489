@@ -16,6 +16,14 @@ const Footer = () => {
           
           <div className="flex items-center gap-4">
             <a
+              href="https://ioana-ognibeni.eu/articles/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
+              Articles
+            </a>
+            <a
               href="https://www.linkedin.com/in/ioana-ognibeni/"
               target="_blank"
               rel="noopener noreferrer"
