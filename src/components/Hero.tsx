@@ -31,13 +31,10 @@ const Hero = () => {
           into valuable products. Hit the ground running, deliver impact in days.
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <div className="flex justify-center">
           <Button variant="hero" size="lg" className="group">
             Let's Talk About Your Product
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </Button>
-          <Button variant="outline" size="lg">
-            View Case Studies
           </Button>
         </div>
         
