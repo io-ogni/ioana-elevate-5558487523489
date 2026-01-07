@@ -37,7 +37,7 @@ const CTA = () => {
         </div>
         
         <div className="text-sm text-muted-foreground">
-          Based in Europe • Available globally • Remote-first
+          Based in Germany • Remote-first
         </div>
       </div>
     </section>
