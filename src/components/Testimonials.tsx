@@ -53,24 +53,24 @@ const Testimonials = () => {
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div>
-                <Quote className="w-8 h-8 text-primary/20 mb-4" />
-                <p className="text-foreground leading-relaxed mb-6 italic text-sm">
+                <Quote className="w-10 h-10 text-primary/20 mb-4" />
+                <p className="text-foreground leading-relaxed mb-6 italic text-base sm:text-lg">
                   "{testimonial.quote}"
                 </p>
               </div>
 
               <div className="border-t border-border pt-4 flex items-center gap-3">
-                <Avatar className="w-10 h-10">
+                <Avatar className="w-12 h-12">
                   <AvatarImage src={testimonial.image} alt={testimonial.author} />
-                  <AvatarFallback className="bg-primary/10 text-primary font-semibold text-xs">
+                  <AvatarFallback className="bg-primary/10 text-primary font-semibold text-sm">
                     {testimonial.author.split(' ').map(n => n[0]).join('')}
                   </AvatarFallback>
                 </Avatar>
                 <div>
-                  <div className="font-semibold text-foreground text-sm">
+                  <div className="font-semibold text-foreground text-base">
                     {testimonial.author}
                   </div>
-                  <div className="text-xs text-muted-foreground mt-0.5">
+                  <div className="text-sm text-muted-foreground mt-0.5">
                     {testimonial.role}
                   </div>
                 </div>
