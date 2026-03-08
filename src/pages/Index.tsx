@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import Experience from "@/components/Experience";
+import AIExperience from "@/components/AIExperience";
 import Testimonials from "@/components/Testimonials";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
@@ -21,6 +22,9 @@ const Index = () => {
         </div>
         <div id="experience">
           <Experience />
+        </div>
+        <div id="ai-experience">
+          <AIExperience />
         </div>
         <div id="testimonials">
           <Testimonials />
