@@ -28,8 +28,7 @@ const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
             </h1>
             
             <p className="text-xl sm:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-              Interim Product Lead with 19 years of experience turning complex challenges 
-              into valuable products. Hit the ground running, deliver impact in days.
+              Interim Product Lead who turns slow and stuck into clarity and speed. Hit the ground running, deliver impact from day one. 19 years across 12+ industries.
             </p>
             
             <div className="flex justify-center">
