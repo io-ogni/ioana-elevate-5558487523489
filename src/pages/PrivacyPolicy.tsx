@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { Separator } from "@/components/ui/separator";
 
 const PrivacyPolicy = () => {
   return (
@@ -7,59 +8,70 @@ const PrivacyPolicy = () => {
       <Header />
       <main>
         <section className="py-24 px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto prose prose-neutral dark:prose-invert">
-            <h1 className="text-4xl font-bold mb-8">Privacy Policy</h1>
+          <div className="max-w-3xl mx-auto">
+            <h1 className="text-4xl sm:text-5xl font-bold mb-4">Privacy Policy</h1>
+            <p className="text-muted-foreground mb-12">Last updated: March 2026</p>
 
-            <h2>Who we are</h2>
-            <p>
-              Our website address is: http://ioana-marinescu.eu.
-            </p>
-            <p>
-              Ioana Ognibeni (Marinescu) is a Product Leader and Coach, providing services under Ioana Ognibeni Consulting &amp; Coaching.
-            </p>
+            <div className="space-y-10 text-foreground/90 leading-relaxed">
+              <div>
+                <h2 className="text-xl font-semibold mb-3">Who we are</h2>
+                <p className="text-muted-foreground">
+                  This website is operated by <strong className="text-foreground">Ioana Ognibeni Consulting & Coaching</strong>, based in Augsburg, Germany. You can reach us at{" "}
+                  <a href="mailto:contact@ioana-ognibeni.eu" className="text-primary hover:underline">
+                    contact@ioana-ognibeni.eu
+                  </a>.
+                </p>
+              </div>
 
-            <h2>Embedded content from other websites</h2>
-            <p>
-              Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.
-            </p>
-            <p>
-              These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.
-            </p>
+              <Separator />
 
-            <h2>How long we retain your data</h2>
-            <p>
-              If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.
-            </p>
+              <div>
+                <h2 className="text-xl font-semibold mb-3">What data we collect</h2>
+                <p className="text-muted-foreground mb-3">
+                  This is a static website. We do not use analytics, tracking pixels, or marketing cookies. The only data stored locally is your cookie consent preference.
+                </p>
+                <p className="text-muted-foreground">
+                  If you contact us via email, we will process your name and email address solely to respond to your inquiry.
+                </p>
+              </div>
 
-            <h2>What rights you have over your data</h2>
-            <p>
-              You can request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.
-            </p>
+              <Separator />
 
-            <h2>Where your data is sent</h2>
-            <p>
-              Visitor comments may be checked through an automated spam detection service.
-            </p>
+              <div>
+                <h2 className="text-xl font-semibold mb-3">Embedded content</h2>
+                <p className="text-muted-foreground">
+                  Some pages may include embedded content (e.g. LinkedIn profiles, Medium articles). Embedded content from other websites behaves as if you visited those websites directly — they may collect data, use cookies, and track your interaction.
+                </p>
+              </div>
 
-            <hr />
+              <Separator />
 
-            <h2>Photo credit</h2>
-            <p>
-              All photos on this website are either under{" "}
-              <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener noreferrer">
-                Creative Commons CC0 license
-              </a>{" "}
-              or personal creation.
-            </p>
-            <p>
-              The CC0 photos have been downloaded from:{" "}
-              <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">
-                https://unsplash.com/
-              </a>
-            </p>
-            <p>
-              All illustrations are royalty free and customizable, provided by https://illustation.io/license.
-            </p>
+              <div>
+                <h2 className="text-xl font-semibold mb-3">Your rights</h2>
+                <p className="text-muted-foreground">
+                  Under GDPR, you have the right to access, correct, or delete any personal data we hold about you. To exercise these rights, contact us at{" "}
+                  <a href="mailto:contact@ioana-ognibeni.eu" className="text-primary hover:underline">
+                    contact@ioana-ognibeni.eu
+                  </a>.
+                </p>
+              </div>
+
+              <Separator />
+
+              <div>
+                <h2 className="text-xl font-semibold mb-3">Photo credits</h2>
+                <p className="text-muted-foreground">
+                  Photos on this website are either personal creations or licensed under{" "}
+                  <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                    Creative Commons CC0
+                  </a>{" "}
+                  via{" "}
+                  <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                    Unsplash
+                  </a>.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
       </main>
