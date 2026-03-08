@@ -47,7 +47,7 @@ const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
           </div>
           <div className="animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
             <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent">12</div>
-            <div className="text-sm text-muted-foreground mt-1">Years PM</div>
+            <div className="text-sm text-muted-foreground mt-1"><div className="text-sm text-muted-foreground mt-1">Years Product Mgmt</div></div>
           </div>
           <div className="animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
             <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent">7</div>
