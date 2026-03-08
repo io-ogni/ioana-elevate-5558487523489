@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
@@ -11,7 +12,16 @@ import ContactDialog from "@/components/ContactDialog";
 
 const Index = () => {
   const [contactOpen, setContactOpen] = useState(false);
+  const location = useLocation();
 
+  useEffect(() => {
+    if (location.hash) {
+      setTimeout(() => {
+        const el = document.querySelector(location.hash);
+        el?.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+    }
+  }, [location.hash]);
   return (
     <div className="min-h-screen">
       <Header onContactClick={() => setContactOpen(true)} />
