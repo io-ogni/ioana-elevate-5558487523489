@@ -32,7 +32,7 @@ const AIExperience = () => {
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">
             AI-Augmented{" "}
-            <span className="bg-gradient-accent bg-clip-text text-transparent">
+            <span className="bg-gradient-ai bg-clip-text text-transparent">
               Product Work
             </span>
           </h2>
