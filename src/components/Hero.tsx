@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
 
-const Hero = () => {
+const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-8">
       {/* Gradient background */}
@@ -32,7 +32,7 @@ const Hero = () => {
         </p>
         
         <div className="flex justify-center">
-          <Button variant="hero" size="lg" className="group">
+          <Button variant="hero" size="lg" className="group" onClick={onContactClick}>
             Let's Talk About Your Product
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>

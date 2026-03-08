@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Linkedin, Mail } from "lucide-react";
 
-const CTA = () => {
+const CTA = ({ onContactClick }: { onContactClick?: () => void }) => {
   return (
     <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-subtle relative overflow-hidden">
       {/* Decorative gradient */}
@@ -23,7 +23,7 @@ const CTA = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-          <Button variant="hero" size="lg" className="group">
+          <Button variant="hero" size="lg" className="group" onClick={onContactClick}>
             <Mail className="w-5 h-5" />
             Get in Touch
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
