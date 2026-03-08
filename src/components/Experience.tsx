@@ -6,7 +6,7 @@ const experiences = [
     icon: Building2,
     stat: "12 Years",
     title: "Product Management",
-    description: "I build and ship products across the full company lifecycle—from 0→1 startups (Connecta) to scaling companies (Xentral) and multi-billion-dollar organizations (LogMeIn). My work is primarily SaaS, across B2B and B2C, on web and mobile.",
+    description: "Built and delivered products across the full company lifecycle—from 0→1 startups (Connecta) to scaling companies (Xentral) and multi-billion-dollar organizations (LogMeIn). Primarily SaaS, spanning B2B and B2C across web and mobile platforms.",
   },
   {
     icon: Briefcase,
