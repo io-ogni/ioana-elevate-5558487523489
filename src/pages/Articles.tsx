@@ -14,6 +14,14 @@ const articles = [
     url: "https://medium.com/@ioanaa.cristinaa/i-couldnt-find-a-place-to-practice-ai-evals-so-i-built-one-3bdbd48d01dd",
   },
   {
+    title: "Don't Run Behind Competitors. Run to Meet Your Customers.",
+    description: "Why obsessing over competitors can lead you astray, and how redirecting that energy toward your customers creates real product advantage.",
+    date: "2025-02-28",
+    readTime: "2 min read",
+    tags: ["Product Management", "Strategy", "Customer Focus"],
+    url: "https://medium.com/@ioanaa.cristinaa/title-dont-run-behind-competitors-run-to-meet-your-customers-ccbe36759e8e",
+  },
+  {
     title: "How to Create a Culture of Ownership",
     description: "When people own their work end to end, there are no loose ends, no bystander effect, and things don't fall between the cracks. A practical guide to building ownership-driven teams.",
     date: "2024-03-15",
