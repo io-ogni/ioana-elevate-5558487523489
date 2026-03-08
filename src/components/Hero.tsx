@@ -15,12 +15,13 @@ const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
       <div className="max-w-5xl mx-auto text-center animate-fade-in">
         {/* Profile photo */}
         <div className="mb-8 flex justify-center">
-          <div className="relative">
-            <div className="w-32 h-32 sm:w-36 sm:h-36 rounded-full overflow-hidden border-2 border-border shadow-elegant ring-4 ring-primary/10">
+          <div className="relative group">
+            <div className="absolute -inset-1 rounded-full bg-gradient-primary opacity-60 blur-sm group-hover:opacity-100 transition-opacity" />
+            <div className="relative w-28 h-28 sm:w-32 sm:h-32 rounded-full overflow-hidden border-2 border-card">
               <img
                 src={profileImg}
                 alt="Ioana Ognibeni"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover saturate-[1.1]"
               />
             </div>
           </div>
