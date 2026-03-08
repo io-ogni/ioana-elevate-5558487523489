@@ -6,6 +6,14 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 const articles = [
   {
+    title: "I Couldn't Find a Place to Practice AI Evals, So I Built One",
+    description: "A hands-on journey into building a platform for practicing AI evaluations — from identifying the gap to shipping a working solution.",
+    date: "2025-03-05",
+    readTime: "3 min read",
+    tags: ["AI", "Product Management", "Building"],
+    url: "https://medium.com/@ioanaa.cristinaa/i-couldnt-find-a-place-to-practice-ai-evals-so-i-built-one-3bdbd48d01dd",
+  },
+  {
     title: "How to Create a Culture of Ownership",
     description: "When people own their work end to end, there are no loose ends, no bystander effect, and things don't fall between the cracks. A practical guide to building ownership-driven teams.",
     date: "2024-03-15",
