@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
-import profileImg from "@/assets/ioana-profile.jpg";
 
 const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
   return (
