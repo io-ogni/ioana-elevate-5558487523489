@@ -36,7 +36,7 @@ const Experience = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-            Battle-Tested{" "}
+            Trusted{" "}
             <span className="bg-gradient-primary bg-clip-text text-transparent">
               Across Industries
             </span>
