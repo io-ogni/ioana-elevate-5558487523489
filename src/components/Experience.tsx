@@ -70,25 +70,23 @@ const Experience = () => {
               {exp.description && (
                 <p className="text-muted-foreground leading-relaxed">
                   {exp.description}
-                  {exp.tags && (
-                    <span className="inline ml-1">
-                      {exp.tags.map((tag: { label: string; level: string }, i: number) => {
-                        const styles = tag.level === "primary"
-                          ? "bg-[#6366F1] text-white"
-                          : tag.level === "medium"
-                          ? "bg-[#C7D2FE] text-[#1E293B]"
-                          : "bg-[#EEF2FF] text-[#1E293B]";
-                        return (
-                          <span
-                            key={i}
-                            className={`inline-block text-sm font-medium px-2 py-0.5 rounded-full mx-0.5 ${styles}`}
-                          >
-                            {tag.label}
-                          </span>
-                        );
-                      })}
+                  {exp.inlineTags && (
+                    <span className="inline">
+                      {" "}Strong focus on{" "}
+                      <span className="inline-block text-sm font-medium px-2 py-0.5 rounded-full bg-[#6366F1] text-white mx-0.5">SaaS</span>
+                      , across{" "}
+                      <span className="inline-block text-sm font-medium px-2 py-0.5 rounded-full bg-[#6366F1] text-white mx-0.5">B2B</span>
+                      {" "}and{" "}
+                      <span className="inline-block text-sm font-medium px-2 py-0.5 rounded-full bg-[#EEF2FF] text-[#1E293B] mx-0.5">B2C</span>
+                      , for{" "}
+                      <span className="inline-block text-sm font-medium px-2 py-0.5 rounded-full bg-[#6366F1] text-white mx-0.5">Web</span>
+                      {" "}and{" "}
+                      <span className="inline-block text-sm font-medium px-2 py-0.5 rounded-full bg-[#EEF2FF] text-[#1E293B] mx-0.5">Mobile</span>
+                      .
                     </span>
                   )}
+                </p>
+              )}
                 </p>
               )}
               {exp.bullets && (
