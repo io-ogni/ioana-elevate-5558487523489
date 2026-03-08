@@ -38,10 +38,10 @@ const AIExperience = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-            AI-Augmented{" "}
             <span className="bg-gradient-ai bg-clip-text text-transparent">
-              Product Work
-            </span>
+              AI-Augmented
+            </span>{" "}
+            Product Work
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             Building with AI daily — custom agents, rapid prototyping, research
