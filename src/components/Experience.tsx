@@ -4,7 +4,7 @@ import { Building2, Briefcase, Target } from "lucide-react";
 const experiences = [
   {
     icon: Building2,
-    stat: "11 Years",
+    stat: "12 Years",
     title: "Product Management",
     description: "Delivered valuable products from scaling startups (Xentral) to multi-billion-dollar corporations (LogMeIn). B2B & B2C. Web & Mobile.",
   },
@@ -18,7 +18,7 @@ const experiences = [
     icon: Target,
     stat: "12+ Industries",
     title: "Domain Expertise",
-    description: "Video Conferencing, Retail, ERP, E-Commerce, Online Counseling, Domains & Hosting, HR Payroll, and more.",
+    description: "Video Conferencing, Retail, ERP, E-Commerce, Online Counseling, Domains & Hosting, HR Payroll, IoT, and more.",
   },
 ];
 
