@@ -7,7 +7,7 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 const articles = [
   {
     title: "I Couldn't Find a Place to Practice AI Evals, So I Built One",
-    description: "A hands-on journey into building a platform for practicing AI evaluations — from identifying the gap to shipping a working solution.",
+    description: "What a Product Manager learns by shipping an AI feature with 'bare hands'.",
     date: "2025-03-05",
     readTime: "3 min read",
     tags: ["AI", "Product Management", "Building"],
