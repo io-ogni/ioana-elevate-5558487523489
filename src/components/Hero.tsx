@@ -12,9 +12,7 @@ const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
       <div className="absolute bottom-20 left-20 w-96 h-96 bg-accent/20 rounded-full blur-3xl animate-pulse delay-700" />
       
       <div className="max-w-6xl mx-auto animate-fade-in">
-        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
-          {/* Text content */}
-          <div className="flex-1 text-center lg:text-left">
+        <div className="text-center max-w-4xl mx-auto">
             <div className="inline-flex items-center gap-2 px-4 py-2 mb-8 rounded-full bg-card border border-border shadow-card">
               <Sparkles className="w-4 h-4 text-primary" />
               <span className="text-sm font-medium text-muted-foreground">
@@ -29,30 +27,17 @@ const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
               </span>
             </h1>
             
-            <p className="text-xl sm:text-2xl text-muted-foreground mb-8 max-w-3xl leading-relaxed">
+            <p className="text-xl sm:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
               Interim Product Lead with 19 years of experience turning complex challenges 
               into valuable products. Hit the ground running, deliver impact in days.
             </p>
             
-            <div className="flex justify-center lg:justify-start">
+            <div className="flex justify-center">
               <Button variant="hero" size="lg" className="group" onClick={onContactClick}>
                 Let's Talk About Your Product
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </div>
-          </div>
-
-          {/* Profile photo — side, not circle */}
-          <div className="relative group flex-shrink-0">
-            <div className="absolute -inset-2 bg-gradient-primary opacity-30 blur-xl rounded-2xl group-hover:opacity-50 transition-opacity" />
-            <div className="relative w-64 h-72 sm:w-72 sm:h-80 rounded-2xl overflow-hidden border border-border shadow-card">
-              <img
-                src={profileImg}
-                alt="Ioana Ognibeni"
-                className="w-full h-full object-cover saturate-[1.1]"
-              />
-            </div>
-          </div>
         </div>
         
         <div className="mt-16 grid grid-cols-3 gap-8 max-w-3xl mx-auto lg:mx-0">
