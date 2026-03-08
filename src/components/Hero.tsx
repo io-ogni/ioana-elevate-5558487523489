@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
 
-const Hero = () => {
+const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-8">
       {/* Gradient background */}
