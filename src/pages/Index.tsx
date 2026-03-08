@@ -12,7 +12,16 @@ import ContactDialog from "@/components/ContactDialog";
 
 const Index = () => {
   const [contactOpen, setContactOpen] = useState(false);
+  const location = useLocation();
 
+  useEffect(() => {
+    if (location.hash) {
+      setTimeout(() => {
+        const el = document.querySelector(location.hash);
+        el?.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+    }
+  }, [location.hash]);
   return (
     <div className="min-h-screen">
       <Header onContactClick={() => setContactOpen(true)} />
