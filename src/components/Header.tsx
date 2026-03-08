@@ -24,7 +24,7 @@ const Header = ({ onContactClick }: { onContactClick?: () => void }) => {
           <a href="/articles" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
             Articles
           </a>
-          <Button variant="hero">
+          <Button variant="hero" onClick={onContactClick}>
             Let's Talk
           </Button>
         </div>

@@ -32,7 +32,7 @@ const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
         </p>
         
         <div className="flex justify-center">
-          <Button variant="hero" size="lg" className="group">
+          <Button variant="hero" size="lg" className="group" onClick={onContactClick}>
             Let's Talk About Your Product
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
