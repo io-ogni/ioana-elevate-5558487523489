@@ -6,19 +6,26 @@ const experiences = [
     icon: Building2,
     stat: "12 Years",
     title: "Product Management",
-    description: "Built and delivered products across the full company lifecycle—from 0→1 startups (Connecta) to scaling companies (Xentral) and multi-billion-dollar organizations (LogMeIn). Strong focus on SaaS, across B2B and B2C, for Web and Mobile.",
+    lines: [
+      "Built and delivered products across the full company lifecycle.",
+      "From 0→1 startups (Connecta) to scaling companies (Xentral) and multi-billion-dollar organizations (LogMeIn).",
+      "Strong focus on SaaS, across B2B and B2C, for Web and Mobile.",
+    ],
   },
   {
     icon: Briefcase,
     stat: "7 Years",
     title: "Project Management",
-    description: "Led multi-million-dollar projects with full budget responsibility. Teams of up to 20 members across continents. ERP & E-Commerce implementations.",
+    lines: [
+      "Led multi-million-dollar projects with full budget responsibility.",
+      "Teams of up to 20 members across continents.",
+      "ERP & E-Commerce implementations.",
+    ],
   },
   {
     icon: Target,
     stat: "12+ Industries",
     title: "Domain Expertise",
-    description: "",
     bullets: ["ERP", "Retail", "E-Commerce", "IoT", "Online Counselling", "Video Conferencing", "Domains & Hosting", "HR, etc."],
   },
 ];
@@ -66,10 +73,12 @@ const Experience = () => {
                 {exp.title}
               </h3>
               
-              {exp.description && (
-                <p className="text-muted-foreground leading-relaxed">
-                  {exp.description}
-                </p>
+              {'lines' in exp && exp.lines && (
+                <div className="text-muted-foreground leading-relaxed space-y-1.5">
+                  {exp.lines.map((line, i) => (
+                    <p key={i}>{line}</p>
+                  ))}
+                </div>
               )}
               {exp.bullets && (
                 <ul className="text-muted-foreground leading-relaxed space-y-1">
