@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
+import profileImg from "@/assets/ioana-profile.jpg";
 
 const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
   return (
@@ -12,6 +13,19 @@ const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
       <div className="absolute bottom-20 left-20 w-96 h-96 bg-accent/20 rounded-full blur-3xl animate-pulse delay-700" />
       
       <div className="max-w-5xl mx-auto text-center animate-fade-in">
+        {/* Profile photo */}
+        <div className="mb-8 flex justify-center">
+          <div className="relative">
+            <div className="w-32 h-32 sm:w-36 sm:h-36 rounded-full overflow-hidden border-2 border-border shadow-elegant ring-4 ring-primary/10">
+              <img
+                src={profileImg}
+                alt="Ioana Ognibeni"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+
         <div className="inline-flex items-center gap-2 px-4 py-2 mb-8 rounded-full bg-card border border-border shadow-card">
           <Sparkles className="w-4 h-4 text-primary" />
           <span className="text-sm font-medium text-muted-foreground">
@@ -27,7 +41,7 @@ const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
         </h1>
         
         <p className="text-xl sm:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-          Interim Product Lead with 20 years of experience turning complex challenges 
+          Interim Product Lead with 19 years of experience turning complex challenges 
           into valuable products. Hit the ground running, deliver impact in days.
         </p>
         
@@ -40,7 +54,7 @@ const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
         
         <div className="mt-16 grid grid-cols-2 sm:grid-cols-4 gap-8 max-w-3xl mx-auto">
           <div className="animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-            <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent">20</div>
+            <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent">19</div>
             <div className="text-sm text-muted-foreground mt-1">Years Experience</div>
           </div>
           <div className="animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
