@@ -71,6 +71,21 @@ const Experience = () => {
               {exp.description && (
                 <p className="text-muted-foreground leading-relaxed">
                   {exp.description}
+                  {exp.tags && (
+                    <span className="inline ml-1">
+                      {exp.tags.map((tag, i) => (
+                        <span
+                          key={i}
+                          className="inline-block bg-[#EEF2FF] text-[#1E293B] text-sm font-medium px-2 py-0.5 rounded-full mx-0.5"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                      {exp.tagSuffix && (
+                        <span className="ml-1">{exp.tagSuffix}</span>
+                      )}
+                    </span>
+                  )}
                 </p>
               )}
               {exp.bullets && (
