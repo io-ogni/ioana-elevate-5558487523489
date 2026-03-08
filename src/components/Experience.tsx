@@ -11,7 +11,7 @@ const experiences = [
       { label: "SaaS", level: "primary" },
       { label: "B2B", level: "primary" },
       { label: "B2C", level: "light" },
-      { label: "Web", level: "medium" },
+      { label: "Web", level: "primary" },
       { label: "Mobile", level: "light" },
     ],
   },
