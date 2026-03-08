@@ -130,6 +130,7 @@ export default {
       backgroundImage: {
         "gradient-primary": "var(--gradient-primary)",
         "gradient-accent": "var(--gradient-accent)",
+        "gradient-ai": "var(--gradient-ai)",
         "gradient-subtle": "var(--gradient-subtle)",
       },
       boxShadow: {
