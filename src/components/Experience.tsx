@@ -78,17 +78,21 @@ const Experience = () => {
                   {exp.description}
                   {exp.tags && (
                     <span className="inline ml-1">
-                      {exp.tags.map((tag, i) => (
-                        <span
-                          key={i}
-                          className="inline-block bg-[#EEF2FF] text-[#1E293B] text-sm font-medium px-2 py-0.5 rounded-full mx-0.5"
-                        >
-                          {tag}
-                        </span>
-                      ))}
-                      {exp.tagSuffix && (
-                        <span className="ml-1">{exp.tagSuffix}</span>
-                      )}
+                      {exp.tags.map((tag: { label: string; level: string }, i: number) => {
+                        const styles = tag.level === "primary"
+                          ? "bg-[#6366F1] text-white"
+                          : tag.level === "medium"
+                          ? "bg-[#C7D2FE] text-[#1E293B]"
+                          : "bg-[#EEF2FF] text-[#1E293B]";
+                        return (
+                          <span
+                            key={i}
+                            className={`inline-block text-sm font-medium px-2 py-0.5 rounded-full mx-0.5 ${styles}`}
+                          >
+                            {tag.label}
+                          </span>
+                        );
+                      })}
                     </span>
                   )}
                 </p>
