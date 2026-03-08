@@ -71,7 +71,7 @@ const AIExperience = () => {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
+                  className="inline-flex items-center gap-1.5 text-sm font-medium text-[hsl(322,85%,50%)] hover:underline"
                 >
                   View Project
                   <ExternalLink className="w-3.5 h-3.5" />
