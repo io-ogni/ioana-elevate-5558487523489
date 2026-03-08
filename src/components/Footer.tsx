@@ -40,8 +40,12 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
+        <div className="mt-8 pt-8 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
           <p>© {new Date().getFullYear()} Ioana Ognibeni. All rights reserved.</p>
+          <div className="flex items-center gap-4">
+            <a href="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</a>
+            <a href="/impressum" className="hover:text-primary transition-colors">Impressum</a>
+          </div>
         </div>
       </div>
     </footer>
