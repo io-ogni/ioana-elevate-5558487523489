@@ -56,8 +56,8 @@ const AIExperience = () => {
               className="p-8 bg-card border-border hover:border-[hsl(322,85%,50%)]/50 transition-all duration-300 animate-fade-in-up group"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="w-14 h-14 rounded-xl bg-[hsl(322,85%,50%)] flex items-center justify-center mb-6 group-hover:shadow-[0_0_20px_hsl(322_85%_50%/0.4)] transition-all duration-300">
-                <project.icon className="w-7 h-7 text-white" />
+              <div className="w-14 h-14 rounded-xl bg-[hsl(322,85%,50%)]/10 flex items-center justify-center mb-6 group-hover:bg-[hsl(322,85%,50%)]/20 transition-all duration-300">
+                <project.icon className="w-7 h-7 text-[hsl(322,85%,50%)]" />
               </div>
 
               <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
