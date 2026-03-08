@@ -22,7 +22,7 @@ const CTA = ({ onContactClick }: { onContactClick?: () => void }) => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-          <Button size="lg" className="group bg-white text-[hsl(222_85%_12%)] hover:bg-white/90 font-semibold" onClick={onContactClick}>
+          <Button size="lg" className="group bg-white text-[hsl(239_84%_12%)] hover:bg-white/90 font-semibold" onClick={onContactClick}>
             <Mail className="w-5 h-5" />
             Get in Touch
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
