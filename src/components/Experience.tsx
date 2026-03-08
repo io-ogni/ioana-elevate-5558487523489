@@ -65,7 +65,7 @@ const Experience = () => {
                 className={`text-xs font-medium px-3 py-1 rounded-full ${
                   pill.core
                     ? "bg-[#6366F1] text-white"
-                    : "bg-[#A5B4FC] text-white"
+                    : "bg-[#818CF8] text-white"
                 }`}
               >
                 {pill.label}
