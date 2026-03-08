@@ -10,9 +10,9 @@ const CTA = ({ onContactClick }: { onContactClick?: () => void }) => {
       
       <div className="max-w-4xl mx-auto text-center relative z-10 animate-fade-in">
         <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-white">
-          Ready to Ship Products{" "}
+          Ready to Ship{" "}
           <span className="bg-gradient-accent bg-clip-text text-transparent">
-            That Matter?
+            Value?
           </span>
         </h2>
         
