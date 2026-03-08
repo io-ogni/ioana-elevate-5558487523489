@@ -6,7 +6,9 @@ const experiences = [
     icon: Building2,
     stat: "12 Years",
     title: "Product Management",
-    description: "Built and delivered products across the full company lifecycle—from 0→1 startups (Connecta) to scaling companies (Xentral) and multi-billion-dollar organizations (LogMeIn). Primarily SaaS, spanning B2B and B2C across web and mobile platforms.",
+    description: "Built and delivered products across the full company lifecycle—from 0→1 startups (Connecta) to scaling companies (Xentral) and multi-billion-dollar organizations (LogMeIn).",
+    tags: ["SaaS", "B2B", "B2C"],
+    tagSuffix: "Web & Mobile",
   },
   {
     icon: Briefcase,
