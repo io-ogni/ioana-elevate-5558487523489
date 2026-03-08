@@ -23,6 +23,9 @@ const Index = () => {
         <div id="experience">
           <Experience />
         </div>
+        <div id="ai-experience">
+          <AIExperience />
+        </div>
         <div id="testimonials">
           <Testimonials />
         </div>
