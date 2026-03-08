@@ -69,24 +69,6 @@ const Experience = () => {
               {exp.description && (
                 <p className="text-muted-foreground leading-relaxed">
                   {exp.description}
-                  {exp.inlineTags && (
-                    <>
-                      <br />
-                      <span className="inline">
-                        Strong focus on{" "}
-                        <span className="inline-block text-sm font-medium px-2 py-0.5 rounded-full bg-[#6366F1] text-white mx-0.5">SaaS</span>
-                        , across{" "}
-                        <span className="inline-block text-sm font-medium px-2 py-0.5 rounded-full bg-[#6366F1] text-white mx-0.5">B2B</span>
-                        {" "}and{" "}
-                        <span className="inline-block text-sm font-medium px-2 py-0.5 rounded-full bg-[#EEF2FF] text-[#1E293B] mx-0.5">B2C</span>
-                        , for{" "}
-                        <span className="inline-block text-sm font-medium px-2 py-0.5 rounded-full bg-[#6366F1] text-white mx-0.5">Web</span>
-                        {" "}and{" "}
-                        <span className="inline-block text-sm font-medium px-2 py-0.5 rounded-full bg-[#EEF2FF] text-[#1E293B] mx-0.5">Mobile</span>
-                        .
-                      </span>
-                    </>
-                  )}
                 </p>
               )}
               {exp.bullets && (
