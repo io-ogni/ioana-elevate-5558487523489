@@ -30,22 +30,6 @@ const articles = [
     url: "https://medium.com/@ioanaa.cristinaa/big-product-organizations-what-to-look-for-during-the-interview-1a45d8c48e8",
   },
   {
-    title: "What Is Your Stress Face? — From Failure, With Love",
-    description: "Understanding how stress manifests in our behavior, and how self-awareness can turn failure into a powerful growth tool.",
-    date: "2022-09-18",
-    readTime: "8 min read",
-    tags: ["Leadership", "Self-Awareness"],
-    url: "https://medium.com/@ioanaa.cristinaa/what-is-your-stress-face-from-failure-with-love-ad08d1cf2f64",
-  },
-  {
-    title: "The Path from Learned Helplessness to Empowerment",
-    description: "How leaders influence the relationship people have with their own power, and what it takes to break the cycle of learned helplessness.",
-    date: "2023-02-02",
-    readTime: "4 min read",
-    tags: ["Leadership", "Empowerment"],
-    url: "https://medium.com/@ioanaa.cristinaa/the-path-from-learned-helplessness-to-empowerment-41c50335e016",
-  },
-  {
     title: "The Hard Truth About Changing Jobs, and Why I Find It Healthy",
     description: "An honest look at what it really means to change jobs — the discomfort, the growth, and why staying too comfortable might be the bigger risk.",
     date: "2022-08-14",
@@ -60,6 +44,14 @@ const articles = [
     readTime: "5 min read",
     tags: ["Self-Awareness", "Communication"],
     url: "https://medium.com/@ioanaa.cristinaa/being-a-communicator-with-a-half-language-36aa79de3a58",
+  },
+  {
+    title: "The Path from Learned Helplessness to Empowerment",
+    description: "How leaders influence the relationship people have with their own power, and what it takes to break the cycle of learned helplessness.",
+    date: "2023-02-02",
+    readTime: "4 min read",
+    tags: ["Leadership", "Empowerment"],
+    url: "https://medium.com/@ioanaa.cristinaa/the-path-from-learned-helplessness-to-empowerment-41c50335e016",
   },
 ];
 
