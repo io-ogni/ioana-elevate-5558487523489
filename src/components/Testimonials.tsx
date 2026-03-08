@@ -24,7 +24,7 @@ const testimonials = [
   {
     quote: "She is a role model of product thinking. Even after she left, her influence within the teams stayed. She not only helped making the team better, but the whole organization we worked in.",
     author: "Yalcin Kilic",
-    role: "Director Product Development, Cinemo",
+    role: "Director Product Development",
     image: "",
   },
 ];
