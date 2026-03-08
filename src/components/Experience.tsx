@@ -87,8 +87,6 @@ const Experience = () => {
                   )}
                 </p>
               )}
-                </p>
-              )}
               {exp.bullets && (
                 <ul className="text-muted-foreground leading-relaxed space-y-1">
                   {exp.bullets.map((item, i) => (
