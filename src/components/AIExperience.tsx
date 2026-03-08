@@ -56,8 +56,8 @@ const AIExperience = () => {
               className="p-8 bg-card border-border hover:border-primary/50 transition-all duration-300 animate-fade-in-up group"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
-                <project.icon className="w-6 h-6 text-primary" />
+              <div className="w-12 h-12 rounded-lg bg-[hsl(322_85%_50%)]/10 flex items-center justify-center mb-6 group-hover:bg-[hsl(322_85%_50%)]/20 transition-colors">
+                <project.icon className="w-6 h-6 text-[hsl(322,85%,50%)]" />
               </div>
 
               <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
@@ -71,7 +71,7 @@ const AIExperience = () => {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
+                  className="inline-flex items-center gap-1.5 text-sm font-medium text-[hsl(322,85%,50%)] hover:underline"
                 >
                   View Project
                   <ExternalLink className="w-3.5 h-3.5" />
