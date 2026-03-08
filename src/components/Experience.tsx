@@ -18,7 +18,8 @@ const experiences = [
     icon: Target,
     stat: "12+ Industries",
     title: "Domain Expertise",
-    description: "Video Conferencing, Retail, ERP, E-Commerce, Online Counseling, Domains & Hosting, HR Payroll, IoT, and more.",
+    description: "",
+    bullets: ["Video Conferencing", "Retail", "ERP", "E-Commerce", "Online Counseling", "Domains & Hosting", "HR Payroll", "IoT", "and more"],
   },
 ];
 
@@ -65,9 +66,21 @@ const Experience = () => {
                 {exp.title}
               </h3>
               
-              <p className="text-muted-foreground leading-relaxed">
-                {exp.description}
-              </p>
+              {exp.description && (
+                <p className="text-muted-foreground leading-relaxed">
+                  {exp.description}
+                </p>
+              )}
+              {exp.bullets && (
+                <ul className="text-muted-foreground leading-relaxed space-y-1">
+                  {exp.bullets.map((item, i) => (
+                    <li key={i} className="flex items-start gap-2">
+                      <span className="text-primary mt-1.5 text-xs">●</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </Card>
           ))}
         </div>
