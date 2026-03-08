@@ -6,7 +6,9 @@ const experiences = [
     icon: Building2,
     stat: "12 Years",
     title: "Product Management",
-    description: "Built and delivered products across the full company lifecycle—from 0→1 startups (Connecta) to scaling companies (Xentral) and multi-billion-dollar organizations (LogMeIn). Primarily SaaS, spanning B2B and B2C across web and mobile platforms.",
+    description: "Built and delivered products across the full company lifecycle—from 0→1 startups (Connecta) to scaling companies (Xentral) and multi-billion-dollar organizations (LogMeIn).",
+    tags: ["SaaS", "B2B", "B2C"],
+    tagSuffix: "Web & Mobile",
   },
   {
     icon: Briefcase,
@@ -69,6 +71,21 @@ const Experience = () => {
               {exp.description && (
                 <p className="text-muted-foreground leading-relaxed">
                   {exp.description}
+                  {exp.tags && (
+                    <span className="inline ml-1">
+                      {exp.tags.map((tag, i) => (
+                        <span
+                          key={i}
+                          className="inline-block bg-[#EEF2FF] text-[#1E293B] text-sm font-medium px-2 py-0.5 rounded-full mx-0.5"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                      {exp.tagSuffix && (
+                        <span className="ml-1">{exp.tagSuffix}</span>
+                      )}
+                    </span>
+                  )}
                 </p>
               )}
               {exp.bullets && (
