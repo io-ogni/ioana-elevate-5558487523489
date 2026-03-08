@@ -4,7 +4,7 @@ import { Building2, Briefcase, Target } from "lucide-react";
 const experiences = [
   {
     icon: Building2,
-    stat: "11 Years",
+    stat: "12 Years",
     title: "Product Management",
     description: "Delivered valuable products from scaling startups (Xentral) to multi-billion-dollar corporations (LogMeIn). B2B & B2C. Web & Mobile.",
   },
