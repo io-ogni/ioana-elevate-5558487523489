@@ -132,6 +132,8 @@ export default {
         "gradient-accent": "var(--gradient-accent)",
         "gradient-ai": "var(--gradient-ai)",
         "gradient-subtle": "var(--gradient-subtle)",
+        "gradient-warm": "var(--gradient-warm)",
+        "gradient-cool": "var(--gradient-cool)",
       },
       boxShadow: {
         "elegant": "var(--shadow-elegant)",

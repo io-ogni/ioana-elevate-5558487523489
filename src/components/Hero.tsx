@@ -8,8 +8,8 @@ const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
       <div className="absolute inset-0 bg-gradient-subtle -z-10" />
       
       {/* Animated gradient orbs */}
-      <div className="absolute top-20 right-20 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-pulse" />
-      <div className="absolute bottom-20 left-20 w-96 h-96 bg-accent/20 rounded-full blur-3xl animate-pulse delay-700" />
+      <div className="absolute top-20 right-20 w-96 h-96 bg-primary/15 rounded-full blur-3xl animate-pulse" />
+      <div className="absolute bottom-20 left-20 w-96 h-96 bg-accent/15 rounded-full blur-3xl animate-pulse delay-700" />
       
       <div className="max-w-6xl mx-auto animate-fade-in">
         <div className="text-center max-w-4xl mx-auto">
