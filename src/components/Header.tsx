@@ -14,16 +14,16 @@ const Header = ({ onContactClick }: { onContactClick?: () => void }) => {
         </a>
         
         <div className="hidden md:flex items-center gap-8">
-          <a href="#services" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
+          <a href="/#services" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
             Services
           </a>
-          <a href="#experience" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
+          <a href="/#experience" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
             Experience
           </a>
-          <a href="#ai-experience" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
+          <a href="/#ai-experience" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
             AI Projects
           </a>
-          <a href="#testimonials" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
+          <a href="/#testimonials" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
             Testimonials
           </a>
           <a href="/articles" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
