@@ -73,10 +73,12 @@ const Experience = () => {
                 {exp.title}
               </h3>
               
-              {exp.description && (
-                <p className="text-muted-foreground leading-relaxed">
-                  {exp.description}
-                </p>
+              {'lines' in exp && exp.lines && (
+                <div className="text-muted-foreground leading-relaxed space-y-1.5">
+                  {exp.lines.map((line, i) => (
+                    <p key={i}>{line}</p>
+                  ))}
+                </div>
               )}
               {exp.bullets && (
                 <ul className="text-muted-foreground leading-relaxed space-y-1">
