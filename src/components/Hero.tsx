@@ -21,9 +21,9 @@ const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
             </div>
             
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
-              Ship Products That{" "}
+              Build Products That{" "}
               <span className="bg-gradient-primary bg-clip-text text-transparent animate-gradient-shift bg-[length:200%_auto]">
-                Actually Matter
+                Make Sense
               </span>
             </h1>
             
