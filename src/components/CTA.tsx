@@ -5,8 +5,8 @@ const CTA = ({ onContactClick }: { onContactClick?: () => void }) => {
   return (
     <section className="py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden bg-[hsl(239_84%_12%)]">
       {/* Decorative glows */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-[hsl(222_85%_50%/0.15)] rounded-full blur-3xl" />
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-[hsl(42_85%_38%/0.1)] rounded-full blur-3xl" />
+      <div className="absolute top-0 right-0 w-96 h-96 bg-[hsl(239_84%_67%/0.15)] rounded-full blur-3xl" />
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-[hsl(36_90%_45%/0.1)] rounded-full blur-3xl" />
       
       <div className="max-w-4xl mx-auto text-center relative z-10 animate-fade-in">
         <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-white">
