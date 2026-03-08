@@ -7,8 +7,13 @@ const experiences = [
     stat: "12 Years",
     title: "Product Management",
     description: "Built and delivered products across the full company lifecycle—from 0→1 startups (Connecta) to scaling companies (Xentral) and multi-billion-dollar organizations (LogMeIn).",
-    tags: ["SaaS", "B2B", "B2C"],
-    tagSuffix: "Web & Mobile",
+    tags: [
+      { label: "SaaS", level: "primary" },
+      { label: "B2B", level: "primary" },
+      { label: "B2C", level: "light" },
+      { label: "Web", level: "medium" },
+      { label: "Mobile", level: "light" },
+    ],
   },
   {
     icon: Briefcase,
