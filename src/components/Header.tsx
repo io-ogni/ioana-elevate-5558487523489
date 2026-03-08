@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
-import logo from "@/assets/logo-connecting-dots.png";
+import logo from "@/assets/io-logo.png";
 
 const Header = ({ onContactClick }: { onContactClick?: () => void }) => {
   return (
