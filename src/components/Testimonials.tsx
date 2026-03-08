@@ -4,6 +4,12 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
+    quote: "She is a role model of product thinking. Even after she left, her influence within the teams stayed. She not only helped making the team better, but the whole organization we worked in.",
+    author: "Yalcin Kilic",
+    role: "Director Product Development",
+    image: "",
+  },
+  {
     quote: "Ioana is a rock star Product Manager. Her passion for product management and drive to make things happen impressed me. She knows what it takes to create a meaningful product from scratch. The top five characteristics I perceive are empathic, reliable, problem-solver, value-driven, and brave.",
     author: "David Pereira",
     role: "CPO, Product Coach, Keynote Speaker",
@@ -19,12 +25,6 @@ const testimonials = [
     quote: "With her extensive experience in digital product management, Ioana brought a wealth of knowledge to our projects. She possesses a remarkable level of empathy and compassion. Her ability to navigate different personalities within the team created a harmonious atmosphere and contributed to our success.",
     author: "Bernhard Herzog-Obereder",
     role: "CTO",
-    image: "",
-  },
-  {
-    quote: "She is a role model of product thinking. Even after she left, her influence within the teams stayed. She not only helped making the team better, but the whole organization we worked in.",
-    author: "Yalcin Kilic",
-    role: "Director Product Development",
     image: "",
   },
 ];
