@@ -32,7 +32,7 @@ const AIExperience = () => {
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">
             AI-Augmented{" "}
-            <span className="bg-gradient-accent bg-clip-text text-transparent">
+            <span className="bg-gradient-ai bg-clip-text text-transparent">
               Product Work
             </span>
           </h2>
@@ -46,11 +46,11 @@ const AIExperience = () => {
           {projects.map((project, index) => (
             <Card
               key={index}
-              className="p-8 bg-card border-border hover:border-accent/50 transition-all duration-300 animate-fade-in-up group"
+              className="p-8 bg-card border-border hover:border-[hsl(322_85%_50%/0.5)] transition-all duration-300 animate-fade-in-up group"
               style={{ animationDelay: `${index * 0.15}s` }}
             >
-              <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
-                <project.icon className="w-6 h-6 text-accent" />
+              <div className="w-12 h-12 rounded-lg bg-[hsl(322_85%_50%/0.1)] flex items-center justify-center mb-6 group-hover:bg-[hsl(322_85%_50%/0.2)] transition-colors">
+                <project.icon className="w-6 h-6 text-[hsl(322_85%_50%)]" />
               </div>
 
               <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
@@ -64,7 +64,7 @@ const AIExperience = () => {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:underline"
+                  className="inline-flex items-center gap-1.5 text-sm font-medium text-[hsl(322_85%_50%)] hover:underline"
                 >
                   View Project
                   <ExternalLink className="w-3.5 h-3.5" />
