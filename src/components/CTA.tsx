@@ -3,32 +3,31 @@ import { ArrowRight, Linkedin, Mail } from "lucide-react";
 
 const CTA = ({ onContactClick }: { onContactClick?: () => void }) => {
   return (
-    <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-subtle relative overflow-hidden">
-      {/* Decorative gradient */}
-      <div className="absolute inset-0 bg-gradient-primary opacity-5" />
-      <div className="absolute top-0 right-0 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
+    <section className="py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden bg-[hsl(222_85%_12%)]">
+      {/* Decorative glows */}
+      <div className="absolute top-0 right-0 w-96 h-96 bg-[hsl(222_85%_50%/0.15)] rounded-full blur-3xl" />
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-[hsl(42_85%_38%/0.1)] rounded-full blur-3xl" />
       
       <div className="max-w-4xl mx-auto text-center relative z-10 animate-fade-in">
-        <h2 className="text-4xl sm:text-5xl font-bold mb-6">
+        <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-white">
           Ready to Ship Products{" "}
-          <span className="bg-gradient-primary bg-clip-text text-transparent">
+          <span className="bg-gradient-accent bg-clip-text text-transparent">
             That Matter?
           </span>
         </h2>
         
-        <p className="text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
+        <p className="text-xl text-[hsl(216_20%_75%)] mb-10 max-w-2xl mx-auto">
           Let's talk about your product challenges and how I can help you deliver 
           value faster. Available for interim roles and strategic consulting.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-          <Button variant="hero" size="lg" className="group" onClick={onContactClick}>
+          <Button size="lg" className="group bg-white text-[hsl(222_85%_12%)] hover:bg-white/90 font-semibold" onClick={onContactClick}>
             <Mail className="w-5 h-5" />
             Get in Touch
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
-          <Button variant="outline" size="lg" asChild>
+          <Button size="lg" className="border-white/25 text-white hover:bg-white/10 bg-transparent border" asChild>
             <a href="https://www.linkedin.com/in/ioana-ognibeni/" target="_blank" rel="noopener noreferrer">
               <Linkedin className="w-5 h-5" />
               Connect on LinkedIn
@@ -36,7 +35,7 @@ const CTA = ({ onContactClick }: { onContactClick?: () => void }) => {
           </Button>
         </div>
         
-        <div className="text-sm text-muted-foreground">
+        <div className="text-sm text-[hsl(216_20%_60%)]">
           Based in Germany • Remote-first
         </div>
       </div>
