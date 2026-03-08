@@ -6,8 +6,7 @@ const experiences = [
     icon: Building2,
     stat: "12 Years",
     title: "Product Management",
-    description: "Built and delivered products across the full company lifecycle—from 0→1 startups (Connecta) to scaling companies (Xentral) and multi-billion-dollar organizations (LogMeIn).",
-    inlineTags: true,
+    description: "Built and delivered products across the full company lifecycle—from 0→1 startups (Connecta) to scaling companies (Xentral) and multi-billion-dollar organizations (LogMeIn). Strong focus on SaaS, across B2B and B2C, for Web and Mobile.",
   },
   {
     icon: Briefcase,
@@ -70,24 +69,6 @@ const Experience = () => {
               {exp.description && (
                 <p className="text-muted-foreground leading-relaxed">
                   {exp.description}
-                  {exp.inlineTags && (
-                    <>
-                      <br />
-                      <span className="inline">
-                        Strong focus on{" "}
-                        <span className="inline-block text-sm font-medium px-2 py-0.5 rounded-full bg-[#6366F1] text-white mx-0.5">SaaS</span>
-                        , across{" "}
-                        <span className="inline-block text-sm font-medium px-2 py-0.5 rounded-full bg-[#6366F1] text-white mx-0.5">B2B</span>
-                        {" "}and{" "}
-                        <span className="inline-block text-sm font-medium px-2 py-0.5 rounded-full bg-[#EEF2FF] text-[#1E293B] mx-0.5">B2C</span>
-                        , for{" "}
-                        <span className="inline-block text-sm font-medium px-2 py-0.5 rounded-full bg-[#6366F1] text-white mx-0.5">Web</span>
-                        {" "}and{" "}
-                        <span className="inline-block text-sm font-medium px-2 py-0.5 rounded-full bg-[#EEF2FF] text-[#1E293B] mx-0.5">Mobile</span>
-                        .
-                      </span>
-                    </>
-                  )}
                 </p>
               )}
               {exp.bullets && (

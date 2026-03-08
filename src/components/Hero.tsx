@@ -58,6 +58,27 @@ const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
             <div className="text-sm text-muted-foreground mt-1">Industries</div>
           </div>
         </div>
+
+        <div className="mt-6 flex justify-center gap-2">
+          {[
+            { label: "SaaS", solid: true },
+            { label: "B2B", solid: true },
+            { label: "B2C", solid: false },
+            { label: "Web", solid: true },
+            { label: "Mobile", solid: false },
+          ].map((pill) => (
+            <span
+              key={pill.label}
+              className={`text-xs font-medium px-3 py-1 rounded-full ${
+                pill.solid
+                  ? "bg-[#6366F1] text-white"
+                  : "bg-[#EEF2FF] text-[#4338CA]"
+              }`}
+            >
+              {pill.label}
+            </span>
+          ))}
+        </div>
       </div>
     </section>
   );
