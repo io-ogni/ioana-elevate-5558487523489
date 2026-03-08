@@ -12,7 +12,7 @@ const testimonials = [
   {
     quote: "Ioana is wonderful to work with, and has unique expertise in our domain. She has a very strong work ethic and unparalleled analytical and problem solving skills. She has the vision to see the benefits and the passion to turn that into a competitive advantage.",
     author: "Jasa Zelmanovic",
-    role: "UX Design Manager, LogMeIn",
+    role: "UX Design Manager",
     image: "",
   },
   {
@@ -24,7 +24,7 @@ const testimonials = [
   {
     quote: "She is a role model of product thinking. Even after she left, her influence within the teams stayed. She not only helped making the team better, but the whole organization we worked in.",
     author: "Yalcin Kilic",
-    role: "Director Product Development, Cinemo",
+    role: "Director Product Development",
     image: "",
   },
 ];
