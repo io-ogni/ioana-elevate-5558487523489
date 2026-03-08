@@ -21,6 +21,12 @@ const testimonials = [
     role: "CTO",
     image: "", // Add image URL later
   },
+  {
+    quote: "Add testimonial quote here.",
+    author: "Name",
+    role: "Role, Company",
+    image: "", // Add image URL later
+  },
 ];
 
 const Testimonials = () => {
