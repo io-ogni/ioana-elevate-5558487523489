@@ -21,6 +21,12 @@ const testimonials = [
     role: "CTO",
     image: "", // Add image URL later
   },
+  {
+    quote: "Add testimonial quote here.",
+    author: "Name",
+    role: "Role, Company",
+    image: "", // Add image URL later
+  },
 ];
 
 const Testimonials = () => {
@@ -39,7 +45,7 @@ const Testimonials = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {testimonials.map((testimonial, index) => (
             <Card
               key={index}
