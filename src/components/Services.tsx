@@ -17,9 +17,9 @@ const services = [
   },
   {
     icon: Users,
-    title: "Coaching & Mentoring",
-    description: "As a Certified Coach, I help teams achieve higher efficiency, better collaboration, and a learning mindset. Transform your product culture from the inside out.",
-    highlights: ["Team coaching", "Process optimization", "Leadership development", "Culture transformation"],
+    title: "Product Team Development",
+    description: "I teach PMs how to do real discovery, connect their work to strategy, build product operations that work, and lead cross-functional teams effectively. Hands-on, not theoretical.",
+    highlights: ["Discovery & product thinking", "Cross-craft collaboration", "Team topologies", "Agile mindset, adapted to your org"],
   },
 ];
 
