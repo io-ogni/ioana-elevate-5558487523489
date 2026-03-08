@@ -36,7 +36,7 @@ const Services = () => {
               className="w-full h-full object-cover object-top saturate-[1.1]"
             />
           </div>
-          <div className="text-center md:text-left">
+          <div className="text-center md:text-left flex-1">
             <h2 className="text-4xl sm:text-5xl font-bold mb-4">
               How Can I{" "}
               <span className="bg-gradient-accent bg-clip-text text-transparent">
