@@ -37,6 +37,22 @@ const articles = [
     tags: ["Leadership", "Empowerment"],
     url: "https://medium.com/@ioanaa.cristinaa/the-path-from-learned-helplessness-to-empowerment-41c50335e016",
   },
+  {
+    title: "The Hard Truth About Changing Jobs, and Why I Find It Healthy",
+    description: "An honest look at what it really means to change jobs — the discomfort, the growth, and why staying too comfortable might be the bigger risk.",
+    date: "2022-08-14",
+    readTime: "7 min read",
+    tags: ["Career", "Self-Awareness"],
+    url: "https://medium.com/@ioanaa.cristinaa/the-hard-truth-about-changing-jobs-and-why-i-find-it-healthy-5088c9154aa3",
+  },
+  {
+    title: "Being a Communicator… with a Half-Language",
+    description: "What happens when communication is your superpower — but you're operating in a language you haven't fully mastered yet. A personal reflection on identity and expression abroad.",
+    date: "2022-06-04",
+    readTime: "5 min read",
+    tags: ["Self-Awareness", "Communication"],
+    url: "https://medium.com/@ioanaa.cristinaa/being-a-communicator-with-a-half-language-36aa79de3a58",
+  },
 ];
 
 const Articles = () => {
