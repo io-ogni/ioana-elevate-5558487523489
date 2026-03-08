@@ -8,7 +8,7 @@ const Header = ({ onContactClick }: { onContactClick?: () => void }) => {
       <nav className="container flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
         <a href="/" className="flex items-center gap-2.5">
           <img src={logo} alt="Ioana Ognibeni logo" className="w-8 h-8" />
-          <span className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
+          <span className="text-xl font-bold text-[#1E293B]">
             Ioana Ognibeni
           </span>
         </a>
