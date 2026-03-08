@@ -20,7 +20,7 @@ const projects = [
     icon: Flame,
     title: "Write & Burn Sanctuary",
     description:
-      "A privacy-first journaling app designed as a digital 'crumple and toss.' Write it, feel it, burn it. No accounts, no cloud, no trace.",
+      "A zero-trace writing app with 45+ client-side privacy protections. No storage, no cookies, no persistence — everything lives in memory only. Features CSP network isolation, DevTools detection, clipboard blocking, and automatic memory wiping. Nothing leaves the browser.",
     link: "https://write-and-burn-sanctuary.lovable.app/",
   },
   {
