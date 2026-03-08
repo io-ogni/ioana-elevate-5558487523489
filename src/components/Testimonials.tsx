@@ -1,7 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Quote } from "lucide-react";
-import profileImg from "@/assets/ioana-profile.jpg";
 
 const testimonials = [
   {
@@ -22,6 +21,12 @@ const testimonials = [
     role: "CTO",
     image: "",
   },
+  {
+    quote: "Ioana combines sharp strategic thinking with genuine care for her team. She elevated our product processes and brought clarity to complex decisions, always keeping the user at the center of everything we built.",
+    author: "Former Colleague",
+    role: "Engineering Lead",
+    image: "",
+  },
 ];
 
 const Testimonials = () => {
@@ -40,33 +45,12 @@ const Testimonials = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          {/* Featured card with photo */}
-          <Card className="md:row-span-2 p-0 overflow-hidden bg-card border-border shadow-card animate-fade-in-up flex flex-col">
-            <div className="relative h-64 md:h-80 overflow-hidden">
-              <img
-                src={profileImg}
-                alt="Ioana Ognibeni"
-                className="w-full h-full object-cover object-top saturate-[1.1]"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-card via-card/40 to-transparent" />
-            </div>
-            <div className="p-8 flex flex-col justify-end -mt-12 relative z-10">
-              <h3 className="text-2xl font-bold text-foreground mb-2">Ioana Ognibeni</h3>
-              <p className="text-primary font-medium mb-3">Interim Product Lead</p>
-              <p className="text-muted-foreground leading-relaxed text-sm">
-                19 years turning complex challenges into products that deliver real value. 
-                I hit the ground running so your team ships faster.
-              </p>
-            </div>
-          </Card>
-
-          {/* Testimonial cards */}
+        <div className="grid md:grid-cols-2 gap-8">
           {testimonials.map((testimonial, index) => (
             <Card
               key={index}
               className="p-8 bg-card border-border hover:shadow-card transition-all duration-300 animate-fade-in-up relative flex flex-col justify-between"
-              style={{ animationDelay: `${(index + 1) * 0.1}s` }}
+              style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div>
                 <Quote className="w-8 h-8 text-primary/20 mb-4" />

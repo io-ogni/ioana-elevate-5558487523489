@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Rocket, Lightbulb, Users } from "lucide-react";
+import profileImg from "@/assets/ioana-profile.jpg";
 
 const services = [
   {
@@ -26,16 +27,28 @@ const Services = () => {
   return (
     <section className="py-24 px-4 sm:px-6 lg:px-8 bg-background">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-            How I Can{" "}
-            <span className="bg-gradient-accent bg-clip-text text-transparent">
-              Support You
-            </span>
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Strategic product leadership when you need it most
-          </p>
+        {/* Intro with photo */}
+        <div className="flex flex-col md:flex-row items-center gap-10 mb-16 animate-fade-in">
+          <div className="w-40 h-40 md:w-52 md:h-52 rounded-2xl overflow-hidden shadow-elegant shrink-0">
+            <img
+              src={profileImg}
+              alt="Ioana Ognibeni"
+              className="w-full h-full object-cover object-top saturate-[1.1]"
+            />
+          </div>
+          <div className="text-center md:text-left">
+            <h2 className="text-4xl sm:text-5xl font-bold mb-4">
+              How Can I{" "}
+              <span className="bg-gradient-accent bg-clip-text text-transparent">
+                Support You?
+              </span>
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl leading-relaxed">
+              Hi, I'm Ioana — an experienced product person with a passion for people and psychology. 
+              I am committed to delivering value through ethical products while creating efficient work 
+              environments based on respect, curiosity, and a healthy feedback culture.
+            </p>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
