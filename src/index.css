@@ -95,7 +95,7 @@ All colors MUST be HSL.
     
     --shadow-elegant: 0 10px 40px -10px hsl(222 85% 55% / 0.4);
     --shadow-card: 0 4px 20px -2px hsl(0 0% 0% / 0.3);
-    --shadow-glow: 0 0 60px hsl(45 90% 55% / 0.4);
+    --shadow-glow: 0 0 60px hsl(42 85% 45% / 0.4);
 
     --sidebar-background: 220 30% 8%;
     --sidebar-foreground: 216 20% 95%;
