@@ -19,7 +19,7 @@ const experiences = [
     stat: "12+ Industries",
     title: "Domain Expertise",
     description: "",
-    bullets: ["Video Conferencing", "Retail", "ERP", "E-Commerce", "Online Counseling", "Domains & Hosting", "HR Payroll", "IoT", "and more"],
+    bullets: ["ERP", "Retail", "E-Commerce", "IoT", "Online Counselling", "Video Conferencing", "Domains & Hosting", "HR"],
   },
 ];
 
