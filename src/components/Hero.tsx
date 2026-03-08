@@ -16,7 +16,7 @@ const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
             <div className="inline-flex items-center gap-2 px-4 py-2 mb-8 rounded-full bg-card border border-border shadow-card">
               <Sparkles className="w-4 h-4 text-primary" />
               <span className="text-sm font-medium text-muted-foreground">
-                Available for interim product leadership roles
+                Available for interim product roles
               </span>
             </div>
             
