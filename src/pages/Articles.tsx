@@ -11,7 +11,7 @@ const articles = [
     date: "2024-03-15",
     readTime: "10 min read",
     tags: ["Ownership", "Leadership", "Culture Change"],
-    url: "https://medium.com/@ioanaa.cristinaa/how-to-create-a-culture-of-ownership-in-your-startup-team-b516edc12a30",
+    url: "https://medium.com/@ioanaa.cristinaa/how-to-create-a-culture-of-ownership-aa0ffd6ab431",
   },
   {
     title: "The Art of Interim Leadership",
