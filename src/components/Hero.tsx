@@ -40,7 +40,7 @@ const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
             </div>
         </div>
         
-        <div className="mt-16 grid grid-cols-3 gap-8 max-w-3xl mx-auto lg:mx-0">
+        <div className="mt-16 grid grid-cols-3 gap-8 max-w-2xl mx-auto">
           <div className="animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
             <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent">19</div>
             <div className="text-sm text-muted-foreground mt-1">Years Experience</div>
