@@ -20,6 +20,9 @@ const Header = ({ onContactClick }: { onContactClick?: () => void }) => {
           <a href="#experience" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
             Experience
           </a>
+          <a href="#ai-experience" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
+            Projects
+          </a>
           <a href="#testimonials" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
             Testimonials
           </a>
