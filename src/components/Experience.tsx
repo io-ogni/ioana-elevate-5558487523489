@@ -73,14 +73,14 @@ const Experience = () => {
         </div>
 
         <div className="text-center animate-fade-in">
-          <p className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-6">
+          <p className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-8">
             Trusted by Industry Leaders
           </p>
-          <div className="flex flex-wrap justify-center items-center gap-8 sm:gap-12">
+          <div className="flex flex-wrap justify-center items-center gap-6 sm:gap-10">
             {companies.map((company, index) => (
               <div
                 key={index}
-                className="text-xl font-bold text-foreground/40 hover:text-foreground transition-colors cursor-default"
+                className="px-6 py-3 rounded-lg border border-border bg-card/50 text-lg font-semibold text-foreground/50 hover:text-primary hover:border-primary/30 hover:shadow-card transition-all duration-300 cursor-default"
               >
                 {company}
               </div>
