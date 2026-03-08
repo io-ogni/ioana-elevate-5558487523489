@@ -6,11 +6,12 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 const articles = [
   {
-    title: "Building Products That Matter",
-    description: "How to focus on value delivery and avoid feature bloat in modern product development.",
+    title: "How to Create a Culture of Ownership",
+    description: "When people own their work end to end, there are no loose ends, no bystander effect, and things don't fall between the cracks. A practical guide to building ownership-driven teams.",
     date: "2024-03-15",
-    readTime: "5 min read",
-    tags: ["Product Management", "Strategy"],
+    readTime: "10 min read",
+    tags: ["Ownership", "Leadership", "Culture Change"],
+    url: "https://medium.com/@ioanaa.cristinaa/how-to-create-a-culture-of-ownership-in-your-startup-team-b516edc12a30",
   },
   {
     title: "The Art of Interim Leadership",
