@@ -22,9 +22,9 @@ const testimonials = [
     image: "",
   },
   {
-    quote: "Ioana combines sharp strategic thinking with genuine care for her team. She elevated our product processes and brought clarity to complex decisions, always keeping the user at the center of everything we built.",
-    author: "Former Colleague",
-    role: "Engineering Lead",
+    quote: "She is a role model of product thinking. Even after she left, her influence within the teams stayed. She not only helped making the team better, but the whole organization we worked in.",
+    author: "Yalcin Kilic",
+    role: "Director Product Development, Cinemo",
     image: "",
   },
 ];
