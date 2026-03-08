@@ -54,9 +54,7 @@ const Articles = () => {
                   key={index}
                   className="p-8 bg-card border-border hover:border-primary/50 transition-all duration-300 animate-fade-in-up group cursor-pointer"
                   style={{ animationDelay: `${index * 0.1}s` }}
-                  onClick={() => article.url && window.open(article.url, '_blank')}
-                >
-                  style={{ animationDelay: `${index * 0.1}s` }}
+                  onClick={() => (article as any).url && window.open((article as any).url, '_blank')}
                 >
                   <div className="flex flex-col gap-4">
                     <div className="flex items-center gap-4 text-sm text-muted-foreground">
