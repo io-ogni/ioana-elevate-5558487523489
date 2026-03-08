@@ -1,26 +1,33 @@
 import { Card } from "@/components/ui/card";
-import { Bot, Car, Brain, ExternalLink } from "lucide-react";
+import { FlaskConical, GraduationCap, Flame, Network, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    icon: Brain,
+    icon: FlaskConical,
     title: "AI Quality Lab",
     description:
-      "A hands-on learning platform for PMs to gain practical experience with AI evaluations and error analysis.",
+      "A hands-on learning platform for PMs to gain practical experience with AI model evaluations, prompt testing, and error analysis.",
     link: "https://ai-quality-lab.replit.app/",
   },
   {
-    icon: Bot,
+    icon: GraduationCap,
+    title: "C1 German Prep App",
+    description:
+      "A German C1 exam prep app with 560+ exercises, AI-powered writing evaluation, and telc-format practice. Built for my own exam — now open for others.",
+    link: "https://c1-german-prep.lovable.app/",
+  },
+  {
+    icon: Flame,
     title: "Write & Burn Sanctuary",
     description:
-      "A privacy-first journaling mini app designed as the \"smallest unit\" of a self-therapy experience.",
+      "A privacy-first journaling app designed as a digital 'crumple and toss.' Write it, feel it, burn it. No accounts, no cloud, no trace.",
     link: "https://write-and-burn-sanctuary.lovable.app/",
   },
   {
-    icon: Car,
-    title: "Automotive AI × IoT Product",
+    icon: Network,
+    title: "Agentic AI Platform — Automotive",
     description:
-      "Defined a new agentic-AI meets IoT product: from market research through product definition to a working prototype, ready for customer validation.",
+      "Defined and prototyped an agentic AI product architecture — a library of specialized agents and tool integrations for automotive workflows. From market research through product definition to working prototype.",
     link: null,
   },
 ];
@@ -42,15 +49,15 @@ const AIExperience = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {projects.map((project, index) => (
             <Card
               key={index}
-              className="p-8 bg-card border-border hover:border-[hsl(322_85%_50%/0.5)] transition-all duration-300 animate-fade-in-up group"
-              style={{ animationDelay: `${index * 0.15}s` }}
+              className="p-8 bg-card border-border hover:border-primary/50 transition-all duration-300 animate-fade-in-up group"
+              style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="w-12 h-12 rounded-lg bg-[hsl(322_85%_50%/0.1)] flex items-center justify-center mb-6 group-hover:bg-[hsl(322_85%_50%/0.2)] transition-colors">
-                <project.icon className="w-6 h-6 text-[hsl(322_85%_50%)]" />
+              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
+                <project.icon className="w-6 h-6 text-primary" />
               </div>
 
               <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
@@ -59,16 +66,20 @@ const AIExperience = () => {
                 {project.description}
               </p>
 
-              {project.link && (
+              {project.link ? (
                 <a
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-sm font-medium text-[hsl(322_85%_50%)] hover:underline"
+                  className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
                 >
                   View Project
                   <ExternalLink className="w-3.5 h-3.5" />
                 </a>
+              ) : (
+                <span className="inline-flex items-center text-sm text-muted-foreground italic">
+                  Case study on request
+                </span>
               )}
             </Card>
           ))}
