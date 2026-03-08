@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Linkedin, Mail } from "lucide-react";
 
-const CTA = () => {
+const CTA = ({ onContactClick }: { onContactClick?: () => void }) => {
   return (
     <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-subtle relative overflow-hidden">
       {/* Decorative gradient */}
