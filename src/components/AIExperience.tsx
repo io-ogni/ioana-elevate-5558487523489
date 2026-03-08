@@ -46,7 +46,7 @@ const AIExperience = () => {
           {projects.map((project, index) => (
             <Card
               key={index}
-              className="p-8 bg-card border-border hover:border-accent/50 transition-all duration-300 animate-fade-in-up group"
+              className="p-8 bg-card border-border hover:border-[hsl(322_85%_50%/0.5)] transition-all duration-300 animate-fade-in-up group"
               style={{ animationDelay: `${index * 0.15}s` }}
             >
               <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
