@@ -6,7 +6,7 @@ const projects = [
     icon: FlaskConical,
     title: "AI Quality Lab",
     description:
-      "A hands-on learning platform for PMs to gain practical experience with AI model evaluations, prompt testing, and error analysis.",
+      "A hands-on learning platform for PMs to gain practical experience with AI model evaluations, prompt testing, LLM-as-a-judge scoring, and error analysis.",
     link: "https://ai-quality-lab.replit.app/",
   },
   {
