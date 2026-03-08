@@ -55,22 +55,6 @@ const PrivacyPolicy = () => {
                   </a>.
                 </p>
               </div>
-
-              <Separator />
-
-              <div>
-                <h2 className="text-xl font-semibold mb-3">Photo credits</h2>
-                <p className="text-muted-foreground">
-                  Photos on this website are either personal creations or licensed under{" "}
-                  <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
-                    Creative Commons CC0
-                  </a>{" "}
-                  via{" "}
-                  <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
-                    Unsplash
-                  </a>.
-                </p>
-              </div>
             </div>
           </div>
         </section>
