@@ -49,9 +49,29 @@ const Experience = () => {
               Across Industries
             </span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-5">
             Nearly two decades of turning complexity into clarity
           </p>
+          <div className="flex justify-center gap-2">
+            {[
+              { label: "SaaS", core: true },
+              { label: "B2B", core: true },
+              { label: "B2C", core: false },
+              { label: "Web", core: true },
+              { label: "Mobile", core: false },
+            ].map((pill) => (
+              <span
+                key={pill.label}
+                className={`text-xs font-medium px-3 py-1 rounded-full ${
+                  pill.core
+                    ? "bg-[#6366F1] text-white"
+                    : "bg-[#A5B4FC] text-white"
+                }`}
+              >
+                {pill.label}
+              </span>
+            ))}
+          </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-16">
