@@ -1,5 +1,7 @@
+import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ContactDialog from "@/components/ContactDialog";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar, Clock } from "lucide-react";
@@ -64,9 +66,12 @@ const articles = [
 ];
 
 const Articles = () => {
+  const [contactOpen, setContactOpen] = useState(false);
+
   return (
     <div className="min-h-screen">
-      <Header />
+      <Header onContactClick={() => setContactOpen(true)} />
+      <ContactDialog open={contactOpen} onOpenChange={setContactOpen} />
       <main>
         <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-subtle">
           <div className="max-w-4xl mx-auto">
