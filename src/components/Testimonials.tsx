@@ -17,7 +17,7 @@ const testimonials = [
     quote: "Ioana is a rock star Product Manager. Her passion for product management and drive to make things happen impressed me. She knows what it takes to create a meaningful product from scratch. The top five characteristics I perceive are empathic, reliable, problem-solver, value-driven, and brave.",
     author: "David Pereira",
     role: "CPO, Product Coach, Keynote Speaker",
-    image: "",
+    image: davidImg,
   },
   {
     quote: "Ioana is wonderful to work with, and has unique expertise in our domain. She has a very strong work ethic and unparalleled analytical and problem solving skills. She has the vision to see the benefits and the passion to turn that into a competitive advantage.",
