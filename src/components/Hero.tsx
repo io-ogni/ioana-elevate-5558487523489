@@ -23,8 +23,8 @@ const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
               Build Products{" "}
               <span className="relative inline-block">
-                <span className="absolute inset-0 -skew-y-1 bg-accent/20 rounded-sm scale-x-105 scale-y-110" aria-hidden="true" />
-                <span className="relative italic" style={{ fontFamily: "'Caveat', cursive" }}>
+                <span className="absolute inset-0 -skew-y-1 bg-accent/25 rounded-sm scale-x-105 scale-y-110" aria-hidden="true" />
+                <span className="relative text-accent italic" style={{ fontFamily: "'Permanent Marker', cursive" }}>
                   Worth Building
                 </span>
               </span>
