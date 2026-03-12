@@ -1,31 +1,35 @@
 import { Card } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Quote } from "lucide-react";
+import yalcinImg from "@/assets/yalcin.jpeg";
+import davidImg from "@/assets/david.jpeg";
+import jasaImg from "@/assets/jasa.jpeg";
+import bernhardImg from "@/assets/bernhard.jpeg";
 
 const testimonials = [
   {
     quote: "She is a role model of product thinking. Even after she left, her influence within the teams stayed. She not only helped making the team better, but the whole organization we worked in.",
     author: "Yalcin Kilic",
     role: "Director Product Development",
-    image: "",
+    image: yalcinImg,
   },
   {
     quote: "Ioana is a rock star Product Manager. Her passion for product management and drive to make things happen impressed me. She knows what it takes to create a meaningful product from scratch. The top five characteristics I perceive are empathic, reliable, problem-solver, value-driven, and brave.",
     author: "David Pereira",
     role: "CPO, Product Coach, Keynote Speaker",
-    image: "",
+    image: davidImg,
   },
   {
     quote: "Ioana is wonderful to work with, and has unique expertise in our domain. She has a very strong work ethic and unparalleled analytical and problem solving skills. She has the vision to see the benefits and the passion to turn that into a competitive advantage.",
     author: "Jasa Zelmanovic",
     role: "UX Design Manager",
-    image: "",
+    image: jasaImg,
   },
   {
     quote: "With her extensive experience in digital product management, Ioana brought a wealth of knowledge to our projects. She possesses a remarkable level of empathy and compassion. Her ability to navigate different personalities within the team created a harmonious atmosphere and contributed to our success.",
     author: "Bernhard Herzog-Obereder",
     role: "CTO",
-    image: "",
+    image: bernhardImg,
   },
 ];
 
