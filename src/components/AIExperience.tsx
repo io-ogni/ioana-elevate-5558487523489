@@ -76,11 +76,7 @@ const AIExperience = () => {
                   View Project
                   <ExternalLink className="w-3.5 h-3.5" />
                 </a>
-              ) : (
-                <span className="inline-flex items-center text-sm text-muted-foreground italic">
-                  Case study on request
-                </span>
-              )}
+              ) : null}
             </Card>
           ))}
         </div>
