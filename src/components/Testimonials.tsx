@@ -1,13 +1,17 @@
 import { Card } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Quote } from "lucide-react";
+import yalcinImg from "@/assets/yalcin.jpeg";
+import davidImg from "@/assets/david.jpeg";
+import jasaImg from "@/assets/jasa.jpeg";
+import bernhardImg from "@/assets/bernhard.jpeg";
 
 const testimonials = [
   {
     quote: "She is a role model of product thinking. Even after she left, her influence within the teams stayed. She not only helped making the team better, but the whole organization we worked in.",
     author: "Yalcin Kilic",
     role: "Director Product Development",
-    image: "",
+    image: yalcinImg,
   },
   {
     quote: "Ioana is a rock star Product Manager. Her passion for product management and drive to make things happen impressed me. She knows what it takes to create a meaningful product from scratch. The top five characteristics I perceive are empathic, reliable, problem-solver, value-driven, and brave.",
