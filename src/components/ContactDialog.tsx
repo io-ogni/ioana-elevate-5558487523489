@@ -31,7 +31,7 @@ const ContactDialog = ({ open, onOpenChange }: ContactDialogProps) => {
             </a>
           </Button>
           <Button variant="outline" size="lg" asChild>
-            <a href="https://www.linkedin.com/in/ioana-ognibeni/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/ioanamarinescu/" target="_blank" rel="noopener noreferrer">
               <Linkedin className="w-5 h-5" />
               Connect on LinkedIn
             </a>

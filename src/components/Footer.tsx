@@ -22,7 +22,7 @@ const Footer = () => {
               Articles
             </a>
             <a
-              href="https://www.linkedin.com/in/ioana-ognibeni/"
+              href="https://www.linkedin.com/in/ioanamarinescu/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
