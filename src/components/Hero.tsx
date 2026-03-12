@@ -23,10 +23,11 @@ const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
               Build Products{" "}
               <span className="relative inline-block">
-                <span className="absolute inset-0 -skew-y-1 bg-[hsl(322,85%,50%)]/60 rounded-sm scale-x-105 scale-y-110" aria-hidden="true" />
+                <svg className="absolute -inset-x-1 -inset-y-1 w-[calc(100%+8px)] h-[calc(100%+8px)]" viewBox="0 0 120 40" preserveAspectRatio="none" aria-hidden="true">
+                  <path d="M8,32 Q2,28 4,20 Q6,10 15,7 Q30,2 60,5 Q90,3 108,8 Q116,12 115,20 Q114,30 105,34 Q85,38 55,36 Q25,38 10,34 Z" fill="hsl(322 85% 50% / 0.6)" />
+                </svg>
                 <span className="relative text-foreground font-normal" style={{ fontFamily: "'Permanent Marker', cursive" }}>
-                  Worth
-                </span>
+                  Worth</span>
               </span>
               <br />
               <span className="relative inline-block">
