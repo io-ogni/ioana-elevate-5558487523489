@@ -122,7 +122,7 @@ const Experience = () => {
             {companies.map((company, index) => (
               <div
                 key={index}
-                className="px-6 py-3 rounded-lg border border-border bg-card/50 text-lg font-semibold text-foreground/50 hover:text-primary hover:border-primary/30 hover:shadow-card transition-all duration-300 cursor-default"
+                className="text-lg font-semibold text-foreground/40"
               >
                 {company}
               </div>
