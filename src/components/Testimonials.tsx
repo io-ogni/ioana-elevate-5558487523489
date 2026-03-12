@@ -29,7 +29,7 @@ const testimonials = [
     quote: "With her extensive experience in digital product management, Ioana brought a wealth of knowledge to our projects. She possesses a remarkable level of empathy and compassion. Her ability to navigate different personalities within the team created a harmonious atmosphere and contributed to our success.",
     author: "Bernhard Herzog-Obereder",
     role: "CTO",
-    image: "",
+    image: bernhardImg,
   },
 ];
 
