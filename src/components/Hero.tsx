@@ -23,14 +23,14 @@ const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
               Build Products{" "}
               <span className="relative inline-block">
-                <span className="absolute inset-0 -skew-y-1 bg-[#DA870C]/30 rounded-sm scale-x-105 scale-y-110" aria-hidden="true" />
+                <span className="absolute inset-0 -skew-y-1 bg-[hsl(322,85%,50%)]/30 rounded-sm scale-x-105 scale-y-110" aria-hidden="true" />
                 <span className="relative text-foreground font-normal" style={{ fontFamily: "'Permanent Marker', cursive" }}>
                   Worth
                 </span>
               </span>
               <br />
               <span className="relative inline-block">
-                <span className="absolute inset-0 -skew-y-1 bg-[#DA870C]/30 rounded-sm scale-x-105 scale-y-110" aria-hidden="true" />
+                <span className="absolute inset-0 -skew-y-1 bg-[hsl(322,85%,50%)]/30 rounded-sm scale-x-105 scale-y-110" aria-hidden="true" />
                 <span className="relative text-foreground font-normal" style={{ fontFamily: "'Permanent Marker', cursive" }}>
                   Building
                 </span>
