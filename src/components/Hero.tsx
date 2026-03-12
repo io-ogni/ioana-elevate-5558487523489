@@ -23,19 +23,17 @@ const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
               Build Products{" "}
               <span className="relative inline-block">
-                <svg className="absolute left-[-4px] right-[-4px] top-[18%] h-[70%] w-[calc(100%+8px)]" viewBox="0 0 200 30" preserveAspectRatio="none" aria-hidden="true">
-                  <path d="M2,8 L4,5 L196,3 L198,7 L199,22 L197,26 L5,27 L1,24 L0,12 Z" fill="hsl(322 85% 50% / 0.3)" transform="rotate(-1, 100, 15)" />
-                </svg>
+                <span className="absolute inset-0 -skew-y-1 bg-[#DA870C]/30 rounded-sm scale-x-105 scale-y-110" aria-hidden="true" />
                 <span className="relative text-foreground font-normal" style={{ fontFamily: "'Permanent Marker', cursive" }}>
-                  Worth</span>
+                  Worth
+                </span>
               </span>
               <br />
               <span className="relative inline-block">
-                <svg className="absolute left-[-4px] right-[-4px] top-[18%] h-[70%] w-[calc(100%+8px)]" viewBox="0 0 200 30" preserveAspectRatio="none" aria-hidden="true">
-                  <path d="M1,7 L3,4 L195,5 L199,8 L198,23 L196,27 L4,25 L0,22 L1,10 Z" fill="hsl(322 85% 50% / 0.3)" transform="rotate(0.5, 100, 15)" />
-                </svg>
+                <span className="absolute inset-0 -skew-y-1 bg-[#DA870C]/30 rounded-sm scale-x-105 scale-y-110" aria-hidden="true" />
                 <span className="relative text-foreground font-normal" style={{ fontFamily: "'Permanent Marker', cursive" }}>
-                  Building</span>
+                  Building
+                </span>
               </span>
             </h1>
             
