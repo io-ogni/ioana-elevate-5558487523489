@@ -31,7 +31,7 @@ const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
               <br />
               <span className="relative inline-block">
                 <span className="absolute inset-0 -skew-y-1 bg-[#DA870C]/30 rounded-sm scale-x-105 scale-y-110" aria-hidden="true" />
-                <span className="relative text-foreground font-normal" style={{ fontFamily: "'Permanent Marker', cursive" }}>
+                <span className="relative text-foreground font-normal" style={{ fontFamily: "'Dancing Script', cursive" }}>
                   Building
                 </span>
               </span>
