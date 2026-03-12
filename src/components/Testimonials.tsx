@@ -23,7 +23,7 @@ const testimonials = [
     quote: "Ioana is wonderful to work with, and has unique expertise in our domain. She has a very strong work ethic and unparalleled analytical and problem solving skills. She has the vision to see the benefits and the passion to turn that into a competitive advantage.",
     author: "Jasa Zelmanovic",
     role: "UX Design Manager",
-    image: "",
+    image: jasaImg,
   },
   {
     quote: "With her extensive experience in digital product management, Ioana brought a wealth of knowledge to our projects. She possesses a remarkable level of empathy and compassion. Her ability to navigate different personalities within the team created a harmonious atmosphere and contributed to our success.",
