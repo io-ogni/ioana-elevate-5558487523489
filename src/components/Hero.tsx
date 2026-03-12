@@ -31,10 +31,11 @@ const Hero = ({ onContactClick }: { onContactClick?: () => void }) => {
               </span>
               <br />
               <span className="relative inline-block">
-                <span className="absolute inset-0 -skew-y-1 bg-[hsl(322,85%,50%)]/60 rounded-sm scale-x-105 scale-y-110" aria-hidden="true" />
+                <svg className="absolute -inset-x-1 -inset-y-1 w-[calc(100%+8px)] h-[calc(100%+8px)]" viewBox="0 0 120 40" preserveAspectRatio="none" aria-hidden="true">
+                  <path d="M5,30 Q3,22 8,12 Q14,4 30,5 Q55,2 80,6 Q105,4 114,10 Q118,18 116,26 Q112,35 90,36 Q60,39 30,37 Q10,36 5,30 Z" fill="hsl(322 85% 50% / 0.6)" />
+                </svg>
                 <span className="relative text-foreground font-normal" style={{ fontFamily: "'Permanent Marker', cursive" }}>
-                  Building
-                </span>
+                  Building</span>
               </span>
             </h1>
             
