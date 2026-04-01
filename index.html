@@ -47,8 +47,8 @@
 
   <body>
     <div id="root">
-      <!-- Static content for SEO — React overwrites this on load -->
-      <main>
+      <!-- Static content for SEO — hidden from users, visible to crawlers -->
+      <main aria-hidden="true" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">
         <h1>Build Products Worth Building</h1>
         <p>Interim Product Lead who turns slow and stuck into clarity and speed. Hit the ground running, deliver impact from day one. 19 years across 12+ industries.</p>
         <p>Available for interim product roles and strategic consulting. Based in Germany, remote-first.</p>
