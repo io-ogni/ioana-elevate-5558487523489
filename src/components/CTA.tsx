@@ -27,7 +27,7 @@ const CTA = ({ onContactClick }: { onContactClick?: () => void }) => {
             Get in Touch
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
-          <Button size="lg" className="border-white/25 text-white hover:bg-white/10 bg-transparent border" asChild>
+          <Button variant="accent" size="lg" className="text-white" asChild>
             <a href="https://www.linkedin.com/in/ioanamarinescu/" target="_blank" rel="noopener noreferrer">
               <Linkedin className="w-5 h-5" />
               Connect on LinkedIn
