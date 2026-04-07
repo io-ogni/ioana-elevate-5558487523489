@@ -16,19 +16,19 @@ const routes = [
     path: 'articles',
     title: 'Articles | Ioana Ognibeni',
     description: 'Thoughts on product management, strategy, AI, and building teams that own their work.',
-    canonical: 'https://ioana-ognibeni.eu/articles',
+    canonical: 'https://ioana-ognibeni.eu/articles/',
   },
   {
     path: 'impressum',
     title: 'Impressum | Ioana Ognibeni',
     description: 'Legal disclosure (Impressum) for ioana-ognibeni.eu.',
-    canonical: 'https://ioana-ognibeni.eu/impressum',
+    canonical: 'https://ioana-ognibeni.eu/impressum/',
   },
   {
     path: 'privacy-policy',
     title: 'Privacy Policy | Ioana Ognibeni',
     description: 'Privacy policy for ioana-ognibeni.eu. No tracking, no analytics, just a static website.',
-    canonical: 'https://ioana-ognibeni.eu/privacy-policy',
+    canonical: 'https://ioana-ognibeni.eu/privacy-policy/',
   },
 ];
 
