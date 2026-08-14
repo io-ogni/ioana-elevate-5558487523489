@@ -7,14 +7,14 @@ const projects = [
     title: "AI Quality Lab",
     description:
       "A hands-on learning platform for PMs to gain practical experience with AI model evaluations, prompt testing, LLM-as-a-judge scoring, and error analysis.",
-    link: "https://ai-quality-lab.replit.app/",
+    link: "https://ai-quality-lab.ioana-ognibeni.eu/",
   },
   {
     icon: GraduationCap,
     title: "C1 German Prep App",
     description:
       "A German C1 exam prep app with 560+ exercises, AI-powered writing evaluation, and telc-format practice. Built for my own exam — now open for others.",
-    link: "https://c1-german-prep.lovable.app/",
+    link: "https://c1-deutsch.ioana-ognibeni.eu/",
   },
   {
     icon: Flame,

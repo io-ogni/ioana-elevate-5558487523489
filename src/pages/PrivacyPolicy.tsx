@@ -1,11 +1,14 @@
+import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ContactDialog from "@/components/ContactDialog";
 import { Separator } from "@/components/ui/separator";
 
 const PrivacyPolicy = () => {
+  const [contactOpen, setContactOpen] = useState(false);
   return (
     <div className="min-h-screen">
-      <Header />
+      <Header onContactClick={() => setContactOpen(true)} />
       <main>
         <section className="py-24 px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
@@ -60,6 +63,7 @@ const PrivacyPolicy = () => {
         </section>
       </main>
       <Footer />
+      <ContactDialog open={contactOpen} onOpenChange={setContactOpen} />
     </div>
   );
 };
