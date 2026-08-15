@@ -21,7 +21,7 @@ const projects = [
     title: "Write & Burn Sanctuary",
     description:
       "A zero-trace writing app with 45+ client-side privacy protections. No storage, no cookies, no persistence — everything lives in memory only. Features CSP network isolation, DevTools detection, clipboard blocking, and automatic memory wiping. Nothing leaves the browser.",
-    link: "https://write-and-burn-sanctuary.lovable.app/",
+    link: "https://write-and-burn.ioana-ognibeni.eu/",
   },
   {
     icon: Network,
