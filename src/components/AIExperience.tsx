@@ -42,7 +42,7 @@ const projects: Project[] = [
     icon: Wrench,
     title: "Tools",
     description:
-      "Small, private, in-browser tools I built solo — no uploads, no accounts, nothing leaves your device.",
+      "Small, fully private, no-ads, in-browser tools I built — because many use cases don't need your data to leave your computer.",
     links: [
       { label: "Markdown → PDF & Word", url: "https://markdown-converter.ioana-ognibeni.eu" },
       { label: "M4A → MP3", url: "https://m4a-converter.ioana-ognibeni.eu" },
@@ -67,7 +67,7 @@ const AIExperience = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto [&>*:last-child:nth-child(odd)]:md:col-span-2 [&>*:last-child:nth-child(odd)]:md:mx-auto [&>*:last-child:nth-child(odd)]:md:max-w-[calc(50%-1rem)]">
           {projects.map((project, index) => (
             <Card
               key={index}
