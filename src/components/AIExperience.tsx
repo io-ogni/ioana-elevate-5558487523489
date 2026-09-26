@@ -1,7 +1,15 @@
 import { Card } from "@/components/ui/card";
-import { FlaskConical, GraduationCap, Flame, Network, ExternalLink } from "lucide-react";
+import { FlaskConical, GraduationCap, Flame, Network, Wrench, ExternalLink, type LucideIcon } from "lucide-react";
 
-const projects = [
+type Project = {
+  icon: LucideIcon;
+  title: string;
+  description: string;
+  link?: string | null;
+  links?: { label: string; url: string }[];
+};
+
+const projects: Project[] = [
   {
     icon: FlaskConical,
     title: "AI Quality Lab",
@@ -29,6 +37,16 @@ const projects = [
     description:
       "Defined and prototyped an agentic AI product architecture — a library of specialized agents and tool integrations for automotive workflows. From market research through product definition to working prototype.",
     link: null,
+  },
+  {
+    icon: Wrench,
+    title: "Tools",
+    description:
+      "Small, private, in-browser tools I built solo — no uploads, no accounts, nothing leaves your device.",
+    links: [
+      { label: "Markdown → PDF & Word", url: "https://markdown-converter.ioana-ognibeni.eu" },
+      { label: "M4A → MP3", url: "https://m4a-converter.ioana-ognibeni.eu" },
+    ],
   },
 ];
 
@@ -66,7 +84,22 @@ const AIExperience = () => {
                 {project.description}
               </p>
 
-              {project.link ? (
+              {project.links ? (
+                <div className="flex flex-col gap-2">
+                  {project.links.map((l) => (
+                    <a
+                      key={l.url}
+                      href={l.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 text-sm font-medium text-[hsl(322,85%,50%)] hover:underline"
+                    >
+                      {l.label}
+                      <ExternalLink className="w-3.5 h-3.5" />
+                    </a>
+                  ))}
+                </div>
+              ) : project.link ? (
                 <a
                   href={project.link}
                   target="_blank"
