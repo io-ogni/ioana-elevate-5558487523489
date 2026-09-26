@@ -22,7 +22,7 @@ const testimonials = [
   {
     quote: "Ioana is wonderful to work with, and has unique expertise in our domain. She has a very strong work ethic and unparalleled analytical and problem solving skills. She has the vision to see the benefits and the passion to turn that into a competitive advantage.",
     author: "Jasa Zelmanovic",
-    role: "Product Design Leader",
+    role: "Head of Design",
     image: jasaImg,
   },
   {
