@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import ContactDialog from "@/components/ContactDialog";
 import { Separator } from "@/components/ui/separator";
 import { MapPin, Mail, FileText } from "lucide-react";
+import { Email } from "@/components/Email";
 
 const Impressum = () => {
   const [contactOpen, setContactOpen] = useState(false);
@@ -40,9 +41,7 @@ const Impressum = () => {
                   <p className="text-muted-foreground">
                     Ioana (Marinescu) Ognibeni
                     <br />
-                    <a href="mailto:contact@ioana-ognibeni.eu" className="text-primary hover:underline">
-                      contact@ioana-ognibeni.eu
-                    </a>
+                    <Email className="text-primary" />
                   </p>
                 </div>
               </div>

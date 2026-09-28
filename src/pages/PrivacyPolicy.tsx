@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ContactDialog from "@/components/ContactDialog";
 import { Separator } from "@/components/ui/separator";
+import { Email } from "@/components/Email";
 
 const PrivacyPolicy = () => {
   const [contactOpen, setContactOpen] = useState(false);
@@ -20,9 +21,7 @@ const PrivacyPolicy = () => {
                 <h2 className="text-xl font-semibold mb-3">Who we are</h2>
                 <p className="text-muted-foreground">
                   This website is operated by <strong className="text-foreground">Ioana Ognibeni Consulting & Coaching</strong>, based in Augsburg, Germany. You can reach us at{" "}
-                  <a href="mailto:contact@ioana-ognibeni.eu" className="text-primary hover:underline">
-                    contact@ioana-ognibeni.eu
-                  </a>.
+                  <Email className="text-primary" />.
                 </p>
               </div>
 
@@ -53,9 +52,7 @@ const PrivacyPolicy = () => {
                 <h2 className="text-xl font-semibold mb-3">Your rights</h2>
                 <p className="text-muted-foreground">
                   Under GDPR, you have the right to access, correct, or delete any personal data we hold about you. To exercise these rights, contact us at{" "}
-                  <a href="mailto:contact@ioana-ognibeni.eu" className="text-primary hover:underline">
-                    contact@ioana-ognibeni.eu
-                  </a>.
+                  <Email className="text-primary" />.
                 </p>
               </div>
             </div>

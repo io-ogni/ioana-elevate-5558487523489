@@ -1,4 +1,5 @@
 import { Linkedin, Mail } from "lucide-react";
+import { Email } from "@/components/Email";
 
 const Footer = () => {
   return (
@@ -30,13 +31,10 @@ const Footer = () => {
               <Linkedin className="w-5 h-5" />
               LinkedIn
             </a>
-            <a
-              href="mailto:contact@ioana-ognibeni.eu"
-              className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
-            >
+            <span className="flex items-center gap-2 text-sm text-muted-foreground">
               <Mail className="w-5 h-5" />
-              Email
-            </a>
+              <Email />
+            </span>
           </div>
         </div>
         
